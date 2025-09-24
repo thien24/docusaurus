@@ -1,41 +1,59 @@
-# Website
+📚 Docusaurus
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Docusaurus
+ là một framework do Facebook phát triển, giúp xây dựng website tài liệu nhanh chóng, hiện đại và dễ dàng mở rộng.
 
-## Installation
+🚀 Tính năng nổi bật
 
-```bash
-yarn
-```
+✍️ Viết tài liệu bằng Markdown/MDX.
 
-## Local Development
+🌍 Hỗ trợ đa ngôn ngữ (i18n).
 
-```bash
-yarn start
-```
+📰 Tích hợp blog sẵn.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+🎨 Tùy biến giao diện với React components.
 
-## Build
+🔌 Hệ thống plugin & theme mạnh mẽ.
 
-```bash
-yarn build
-```
+⚡ Build site tĩnh, dễ deploy trên nhiều nền tảng.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+📂 Cấu trúc cơ bản
+.
+├── docs/                  # Tài liệu chính (.md, .mdx)
+├── blog/                  # Bài viết blog
+├── src/                   # Component React tuỳ chỉnh
+├── static/                # File tĩnh (ảnh, favicon, ...)
+├── docusaurus.config.js   # File cấu hình site
+├── sidebars.js            # Cấu hình sidebar docs
+└── package.json
 
-## Deployment
+🛠️ Cài đặt & Chạy thử
 
-Using SSH:
+Yêu cầu: Node.js >= 16
 
-```bash
-USE_SSH=true yarn deploy
-```
+# Cài dependencies
+npm install
 
-Not using SSH:
+# Chạy dev server (hot reload)
+npm start
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+# Build site production
+npm run build
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+# Preview build
+npm run serve
+
+🌐 Triển khai
+
+Docusaurus có thể deploy dễ dàng lên nhiều nền tảng:
+
+GitHub Pages
+
+Vercel
+ / Netlify
+
+AWS S3 / CloudFront
+
+Ví dụ deploy lên GitHub Pages:
+
+GIT_USER=<your-github-username> npm run deploy
