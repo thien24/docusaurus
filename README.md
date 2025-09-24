@@ -17,20 +17,6 @@ Docusaurus
 
 ⚡ Build site tĩnh, dễ deploy trên nhiều nền tảng.
 
-📂 Cấu trúc cơ bản
-.
-├── docs/                  # Tài liệu chính (.md, .mdx)
-├── blog/                  # Bài viết blog
-├── src/                   # Component React tuỳ chỉnh
-├── static/                # File tĩnh (ảnh, favicon, ...)
-├── docusaurus.config.js   # File cấu hình site
-├── sidebars.js            # Cấu hình sidebar docs
-└── package.json
-
-🛠️ Cài đặt & Chạy thử
-
-Yêu cầu: Node.js >= 16
-
 # Cài dependencies
 npm install
 
